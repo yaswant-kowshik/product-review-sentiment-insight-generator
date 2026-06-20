@@ -1,43 +1,71 @@
-# Product Review Sentiment & Insight Generator
+# Basic Sentiment Classifier
+
+## Week 1 Task
+
+Implemented a Basic Sentiment Classifier using Machine Learning techniques to classify product reviews as Positive, Negative, or Neutral.
+
+---
 
 ## Objective
-To analyze customer product reviews and classify them as Positive, Negative, or Neutral. The project also generates insights to help businesses understand customer opinions and improve products.
+
+To build a sentiment classification model that automatically analyzes customer reviews and determines their sentiment.
+
+---
 
 ## Dataset
-Amazon Product Reviews Dataset
 
-### Dataset Features
+Product Reviews Dataset
+
+### Features
+
 - reviewText : Customer review text
 - overall : Product rating
 - summary : Review summary
 - sentiment : Sentiment label
 
+### Target
+
+- Positive Review
+- Negative Review
+- Neutral Review
+
+---
+
 ## Technologies Used
+
 - Python
 - Pandas
 - NumPy
-- Scikit-learn
+- Scikit-Learn
 - NLTK
 - Matplotlib
-- Seaborn
 - Jupyter Notebook
 - GitHub
 
-## Features
-- Sentiment Classification
-- Text Preprocessing
-- Keyword Extraction
-- Insight Generation
-- Data Visualization
+---
 
 ## Steps Performed
-1. Data Collection
-2. Data Cleaning
-3. Exploratory Data Analysis
-4. Feature Extraction using TF-IDF
-5. Model Training
-6. Sentiment Prediction
-7. Insight Generation
+
+### 1. Data Collection
+Collected product review data.
+
+### 2. Data Preprocessing
+- Converted text to lowercase
+- Removed punctuation
+- Removed stop words
+- Tokenization
+
+### 3. Feature Extraction
+Used TF-IDF Vectorization.
+
+### 4. Model Building
+Implemented Logistic Regression.
+
+### 5. Sentiment Prediction
+Predicted whether reviews are Positive, Negative, or Neutral.
+
+---
 
 ## Result
-The model successfully predicts sentiment from product reviews and provides meaningful insights about customer satisfaction and product quality.
+
+The Basic Sentiment Classifier successfully predicts the sentiment of product reviews and can be extended for advanced sentiment analysis.
