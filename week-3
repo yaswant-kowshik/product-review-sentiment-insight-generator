@@ -1,0 +1,99 @@
+# Multimodal Model (Text + Product Image)
+
+## Week 3 Task
+
+Implemented a basic multimodal sentiment analysis approach by combining **product review text** and **product images** to improve sentiment prediction.
+
+---
+
+## Objective
+
+To understand how multimodal machine learning combines textual and visual information for more accurate sentiment analysis and product understanding.
+
+---
+
+## Dataset
+
+Multimodal Product Review Dataset
+
+### Dataset Features
+
+#### Text Features
+- reviewText : Customer review
+- summary : Review summary
+- sentiment : Sentiment label
+
+#### Image Features
+- Product Image
+- Image ID
+- Image Path
+
+---
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- OpenCV
+- TensorFlow / PyTorch
+- Scikit-Learn
+- Matplotlib
+- Jupyter Notebook
+- GitHub
+
+---
+
+## Features Implemented
+
+### Text Processing
+- Text cleaning
+- Tokenization
+- TF-IDF / Text Embedding
+
+### Image Processing
+- Image loading
+- Image resizing
+- Image normalization
+
+### Multimodal Learning
+- Combined text features with image features
+- Prepared data for multimodal classification
+
+---
+
+## Steps Performed
+
+### 1. Data Loading
+Loaded both product review text and corresponding product images.
+
+### 2. Text Preprocessing
+Cleaned and transformed review text into numerical features.
+
+### 3. Image Preprocessing
+Resized and normalized product images for model input.
+
+### 4. Feature Fusion
+Combined text and image features into a single input representation.
+
+### 5. Model Preparation
+Prepared the multimodal dataset for training and evaluation.
+
+---
+
+## Results
+
+Successfully prepared a multimodal dataset by combining text reviews and product images, creating a foundation for multimodal sentiment classification.
+
+---
+
+## Repository Structure
+
+```text
+Week-3/
+│
+├── README.md
+├── multimodal_model.ipynb
+├── images/
+└── dataset/
+```
