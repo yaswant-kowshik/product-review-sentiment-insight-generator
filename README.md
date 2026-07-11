@@ -1,58 +1,79 @@
 # Product Review Sentiment & Insight Generator
 
-## Project Overview
-The **Product Review Sentiment & Insight Generator** is a Natural Language Processing (NLP) project that analyzes customer product reviews to determine their sentiment and generate meaningful insights. The project is developed incrementally through weekly milestones, with each week focusing on a specific aspect of sentiment analysis.
+## Overview
 
-## Objectives
-- Analyze customer product reviews.
-- Classify reviews as Positive, Negative, or Neutral.
-- Clean and preprocess text data.
-- Extract sentiment-related features.
-- Visualize sentiment distribution.
-- Build a multimodal sentiment analysis model using both text and product images.
+The **Product Review Sentiment & Insight Generator** is a Natural Language Processing (NLP) project that analyzes customer product reviews and generates sentiment insights. The project is implemented in five stages, covering sentiment analysis, text preprocessing, multimodal learning, BERT-based sentiment analysis, and LLM-powered review summarization.
 
 ## Technologies Used
+
 - Python
-- TextBlob
 - Pandas
+- TextBlob
 - Matplotlib
+- Pillow (PIL)
+- Hugging Face Transformers
+- PyTorch
+- BERT
 
 ## Project Structure
 
 ```
-product-review-sentiment-insight-generator/
+Product Review Sentiment & Insight Generator/
 │
+├── README.md
 ├── week_1/
-│   ├── basic_sentiment_classifier.py
-│   ├── README.md
-│   └── requirements.txt
-│
-└── README.md
+├── week_2/
+├── week_3/
+├── week_4/
+└── week_5/
 ```
 
 ## Weekly Progress
 
 ### ✅ Week 1 – Basic Sentiment Classifier
-**Completed**
+- Classified product reviews as Positive, Negative, or Neutral using TextBlob.
 
-**Description:**
-- Developed a basic sentiment classifier using the TextBlob library.
-- Accepted product reviews as user input.
-- Calculated sentiment polarity.
-- Classified reviews into:
-  - Positive
-  - Negative
-  - Neutral
+### ✅ Week 2 – Text Cleaning, Feature Engineering & Visualization
+- Cleaned review text.
+- Extracted features such as word count and review length.
+- Visualized sentiment distribution using Matplotlib.
 
-**Files**
-- `basic_sentiment_classifier.py`
-- `README.md`
-- `requirements.txt`
+### ✅ Week 3 – Multimodal Model (Text + Product Image)
+- Combined product review text with corresponding product images.
+- Predicted sentiment and displayed the associated image.
 
-## Future Work
-- Week 2 – Text Cleaning, Feature Engineering & Visualization
-- Week 3 – Multimodal Model (Text + Product Image)
+### ✅ Week 4 – Deep Aspect-Based Sentiment Analysis using BERT
+- Performed aspect-based sentiment analysis using a pre-trained BERT model.
 
-## Author
+### ✅ Week 5 – LLM-Powered Review Summarizer & Auto-Responder
+- Generated review summaries using a pre-trained language model.
+- Produced automatic responses based on customer reviews.
 
-**Yaswant Kowshik C**
+## Results
+
+| Week | Output |
+|------|--------|
+| **Week 1** | Classified reviews as **Positive**, **Negative**, or **Neutral**. |
+| **Week 2** | Displayed cleaned review data, extracted sentiment features, and generated a sentiment distribution bar chart. |
+| **Week 3** | Displayed product images alongside their predicted sentiment. |
+| **Week 4** | Predicted aspect-based sentiment using BERT with confidence scores. |
+| **Week 5** | Generated a concise review summary and an automatic customer response. |
+
+## How to Run
+
+Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run each week's project:
+
+```bash
+python week_1/basic_sentiment_classifier.py
+python week_2/sentiment_analysis_week2.py
+python week_3/multimodal_model.py
+python week_4/bert_aspect_sentiment.py
+python week_5/llm_review_summarizer.py
+```
+
